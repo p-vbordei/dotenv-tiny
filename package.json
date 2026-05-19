@@ -1,0 +1,24 @@
+{
+  "name": "dotenv-tiny",
+  "version": "0.1.0",
+  "description": "Tiny .env parser. Multi-line quoted values, escapes, comments, export prefix, optional ${VAR} expansion. Zero dependencies.",
+  "keywords": ["dotenv", "env", "config", "parser"],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": { "node": ">=18" },
+  "author": { "name": "Vlad Bordei", "email": "bordeivlad@gmail.com", "url": "https://github.com/p-vbordei" },
+  "license": "Apache-2.0",
+  "repository": { "type": "git", "url": "https://github.com/p-vbordei/dotenv-tiny.git" },
+  "bugs": { "url": "https://github.com/p-vbordei/dotenv-tiny/issues" },
+  "homepage": "https://github.com/p-vbordei/dotenv-tiny#readme",
+  "devDependencies": { "typescript": "^5.5.0", "vitest": "^2.0.0" }
+}
