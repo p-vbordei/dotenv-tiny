@@ -1,6 +1,6 @@
 {
   "name": "dotenv-tiny",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Tiny .env parser. Multi-line quoted values, escapes, comments, export prefix, optional ${VAR} expansion. Zero dependencies.",
   "keywords": [
     "dotenv",
