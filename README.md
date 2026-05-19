@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/p-vbordei/dotenv-tiny/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/dotenv-tiny/actions/workflows/ci.yml)
 
+[![npm](https://img.shields.io/npm/v/dotenv-tiny.svg)](https://www.npmjs.com/package/dotenv-tiny)
+[![downloads](https://img.shields.io/npm/dm/dotenv-tiny.svg)](https://www.npmjs.com/package/dotenv-tiny)
+[![bundle](https://img.shields.io/bundlejs/size/dotenv-tiny)](https://bundlejs.com/?q=dotenv-tiny)
+
 Tiny `.env` parser. Multi-line quoted values, escape sequences, comments, `export` prefix, optional `${VAR}` expansion. Zero dependencies, no `fs` access (pure function — you bring the text).
 
 ```ts
