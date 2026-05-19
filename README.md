@@ -1,5 +1,7 @@
 # dotenv-tiny
 
+[![ci](https://github.com/p-vbordei/dotenv-tiny/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/dotenv-tiny/actions/workflows/ci.yml)
+
 Tiny `.env` parser. Multi-line quoted values, escape sequences, comments, `export` prefix, optional `${VAR}` expansion. Zero dependencies, no `fs` access (pure function — you bring the text).
 
 ```ts
